@@ -1,5 +1,8 @@
 module.exports = (old_time) => {
-  console.log(old_time)
-  console.log(Date.now)
-  return `A Long Long Time Ago`;
+  inputDate = new Date(old_time)
+  timeAgo = Math.floor(((new Date() - inputDate)/1000))
+  console.log(timeAgo)
+  console.log(inputDate)
+  console.log(`A Long Long Time Ago`);
+  return timeAgo;
 }

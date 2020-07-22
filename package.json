@@ -1,6 +1,6 @@
 {
   "name": "americanpie",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This package takes the time stamp and returns a string which is relevant to that time. Eg. 1 second ago, 3 hours ago, 2 weeks ago, 1 year ago, a long time ago, a long long time ago.",
   "main": "index.js",
   "scripts": {
